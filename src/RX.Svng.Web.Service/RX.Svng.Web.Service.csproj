@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Amazon.AspNetCore.Identity.Cognito" Version="1.0.2" />
+    <PackageReference Include="NeoSmart.AsyncLock" Version="0.3.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RX.Svng.Web.Cache\RX.Svng.Web.Cache.csproj" />
+    <ProjectReference Include="..\RX.Svng.Web.Data\RX.Svng.Web.Data.csproj" />
+  </ItemGroup>
+
+</Project>
