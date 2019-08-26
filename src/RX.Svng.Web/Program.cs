@@ -17,6 +17,7 @@ namespace RX.Svng.Web
                 .ConfigureLogging((hostingContext, logging) =>
                 {
                     logging.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
+                    logging.AddAzureWebAppDiagnostics();
                     logging.AddConsole();
                     logging.AddDebug();
                     logging.AddEventSourceLogger();
