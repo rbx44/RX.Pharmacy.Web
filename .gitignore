@@ -28,7 +28,6 @@ appsettings.Development*
 *.vspscc
 *.vssscc
 *.bak
-*.[Cc]ache
 Logs_
 /env/_local/payload
 *.psess
@@ -95,4 +94,3 @@ Thumbs.db
 ######
 # Ignore the build directory
 # Ignore Sass' cache
-*.sass-cache
