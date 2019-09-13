@@ -2,9 +2,6 @@
 Pharmacy Api allows user to find closest pharmacy from given gps coordinates.
 
 
-## Site Url
-* http://pharmt01wfe.azurewebsites.net/swagger/index.html
-
 ## How to?
 * Get the JWT token see below from user login api (site url + api endpoint) **Ask for valid user and password**.
 * Pass the JWT token as Authorization header to pharmacy api and provide coordinates as `application/json` content type to find the closest pharmacy store (stored in DB) from the provided coordinates.
